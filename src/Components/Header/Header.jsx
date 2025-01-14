@@ -12,11 +12,15 @@ const Header = () => {
             {/* Desktop View */}
             <div className='hidden md:flex'>
                 <div className='mt-2'>
-                    <img className='h-32 w-60' src={logo} alt="" />
+                    <Link to='/'>
+                        <img className='h-32 w-60' src={logo} alt="" />
+                    </Link>
                 </div>
-                <div className="size-10 ml-20 mt-12 flex items-center space-x-2 transparent-input p-2 rounded w-3/12">
+                <div className="size-10 ml-20 mt-12 flex items-center space-x-2 
+                transparent-input p-2 rounded w-96">
                     <CiSearch className="text-white text-xl font-bold" />
-                    <input type="text" placeholder="Search your Destination..." className="bg-transparent placeholder-white text-white border-none focus:outline-none w-full h-8 text-sm" />
+                    <input type="text" placeholder="Search your Destination..." className="bg-transparent
+                     placeholder-white text-white border-none focus:outline-none w-38 h-8 text-sm" />
                 </div>
                 <div className='mt-12 space-x-12 text-font flex ml-auto'>
                     <div className='mt-2'>
@@ -34,11 +38,7 @@ const Header = () => {
             {/* Mobile View */}
             <div>
                 <div className='flex items-center justify-between md:hidden'>
-                    <img className='w-16' src={logo} alt="" />
-                    <div className="flex items-center space-x-2 transparent-input p-2 rounded w-6/12">
-                        <CiSearch className="text-white text-xl font-bold" />
-                        <input type="text" placeholder="Search..." className="bg-transparent placeholder-white text-white border-none focus:outline-none w-full h-8 text-sm" />
-                    </div>
+                    <img className='w-48 h-20' src={logo} alt="" />
                     <button
                         className='text-white text-2xl'
                         onClick={() => setIsMenuOpen(!isMenuOpen)}
@@ -49,12 +49,21 @@ const Header = () => {
 
                 {/* Mobile Menu */}
                 {isMenuOpen && (
-                    <div className='md:hidden bg-black bg-opacity-90 mt-2 p-4'>
-                        <Link className='block text-white py-2'>News</Link>
-                        <Link className='block text-white py-2'>Destination</Link>
-                        <Link className='block text-white py-2'>Blog</Link>
-                        <Link className='block text-white py-2'>Contact</Link>
-                        <button className='bg-yellow-500 text-black rounded px-8 py-2 mt-2 w-full'>Login</button>
+                    <div>
+
+                        <div className='md:hidden bg-black bg-opacity-90 mt-2 p-4'>
+                            <div className="flex items-center space-x-2 transparent-input p-2 rounded w-6/12">
+                                <CiSearch className="text-white text-xl font-bold" />
+                                <input type="text" placeholder="Search..." className="bg-transparent placeholder-white text-white border-none focus:outline-none w-full h-8 text-sm" />
+
+                                {/* have to work on this search bar */}
+                            </div>
+                            <Link className='block text-white py-2'>News</Link>
+                            <Link className='block text-white py-2'>Destination</Link>
+                            <Link className='block text-white py-2'>Blog</Link>
+                            <Link className='block text-white py-2'>Contact</Link>
+                            <button className='bg-yellow-500 text-black rounded px-8 py-2 mt-2 w-full'>Login</button>
+                        </div>
                     </div>
                 )}
             </div>
