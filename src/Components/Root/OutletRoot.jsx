@@ -5,7 +5,7 @@ import Header from "../Header/Header";
 const OutletRoot = () => {
     return (
         <div className="outlet-root">
-            <div className="overlay">
+            <div className="overlay p-1">
                 <Header></Header>
                 <Outlet></Outlet>
             </div>

@@ -19,3 +19,9 @@
 .div-style {
     background: url('../images/Sajek.png') no-repeat center center fixed;
 }
+
+.border-style:hover {
+    border: 4px solid #FFD700;
+    border-radius: 1.5rem;
+
+}
