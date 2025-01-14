@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.transparent-input {
+    background-color: rgba(185, 185, 185, 0.5);
+    border: 1px solid rgba(209, 209, 209, 0.5);
+    color: white;
+    border: 1px solid white;
+}
+
+.transparent-input::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+
+}
+
+.text-font {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+}
