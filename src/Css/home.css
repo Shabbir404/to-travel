@@ -25,3 +25,50 @@
     border-radius: 1.5rem;
 
 }
+
+
+/* media querry */
+
+@media (max-width: 639px) {
+    .bebas-neue-regular {
+        display: none;
+        /* Hide on mobile screens */
+    }
+
+    .all-text-font {
+        display: none;
+    }
+
+    .center-container {
+        margin-right: 30px;
+    }
+
+    .slider-image {
+        margin-left: 85px;
+        border: 4px solid #FFD700;
+        border-radius: 1.5rem;
+
+    }
+}
+
+@media (min-width: 640px) {
+    .bebas-neue-regular {
+        font-family: "Bebas Neue", serif;
+        font-weight: 400;
+        font-style: normal;
+        color: white;
+        display: hidden;
+    }
+
+
+}
+
+/* For monitor and larger screens (min-width: 1024px) */
+@media (min-width: 1024px) {
+    .bebas-neue-regular {
+        font-family: "Bebas Neue", serif;
+        font-weight: 400;
+        font-style: normal;
+        color: white;
+    }
+}

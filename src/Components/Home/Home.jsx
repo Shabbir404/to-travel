@@ -27,9 +27,51 @@ const Home = () => {
     return (
         <div className='w-10/12 mx-auto'>
             <div className=' mt-3'>
+
+
+                {/*right side images for mobile start*/}
+                <div className='md:hidden'>
+                    <Slider {...settings}>
+                        <div>
+                            <Link
+                                className='w-full ml-4 flex-shrink-0 relative hover:scale-105 transition duration-200 ease-in-out'
+                                to="/"
+                            >
+                                <div className="">
+                                    <img className="slider-image h-96 object-cover" src={shajek} alt="Sajek" />
+                                    <h1 className="mt-80 text-4xl ml-2 absolute top-0 left-0 w-full bebas-neue-regular text-white p-2">Shajek</h1>
+                                </div>
+                            </Link>
+                        </div>
+                        <div>
+                            <Link
+                                className='w-full ml-4 flex-shrink-0 relative hover:scale-105 transition duration-200 ease-in-out'
+                                to="/"
+                            >
+                                <div className="">
+                                    <img className="slider-image h-96 object-cover" src={srimongol} alt="Sreemongol" />
+                                    <h1 className="mt-80 text-4xl ml-2 absolute top-0 left-0 w-full bebas-neue-regular text-white p-2">Sreemangal</h1>
+                                </div>
+                            </Link>
+                        </div>
+                        <div>
+                            <Link
+                                className='w-full ml-4 flex-shrink-0 relative hover:scale-105 transition duration-200 ease-in-out'
+                                to="/"
+                            >
+                                <div className="">
+                                    <img className="slider-image h-96 object-cover" src={sundarban} alt="Sundarban" />
+                                    <h1 className="mt-80 text-4xl ml-2 absolute top-0 left-0 w-full bebas-neue-regular text-white p-2">Shundarban</h1>
+                                </div>
+                            </Link>
+                        </div>
+                    </Slider>
+                </div>
+                {/* right side images for mobile end */}
+
                 <div className='flex mt-20'>
                     <div className='w-8/10'>
-                        <h1 className='bebas-neue-regular mt-4 text-8xl'>Cox's Bazar</h1>
+                        <h1 className='bebas-neue-regular md:mt-4 md:text-8xl'>Cox's Bazar</h1>
                         <div className='w-8/12 mt-2'>
                             <p className='all-text-font'>
                                 Cox's Bazar is a city, fishing port, tourism centre, and district
@@ -39,22 +81,35 @@ const Home = () => {
                                 and it ...
                             </p>
                         </div>
-                        <div className='w-40 mt-8'>
-                            <Link to='/booking' className='flex font-bold bg-yellow-500 text-black rounded px-8 py-2 mt-4'>
+
+                        <div className='hidden md:block w-40 mt-8'>
+                            <Link to='/booking' className=' flex font-bold bg-yellow-500 text-black rounded px-8 py-2 mt-4'>
                                 Booking
                                 <CiLocationArrow1 className='ml-4 mt-1 font-semibold text-xl' />
                             </Link>
                         </div>
-                    </div>
 
-                    {/*right side images*/}
+
+                        {/* mobile screen booking */}
+                        <div className='md:hidden ml-28 mr-28 '>
+                            <Link to='/booking' className='flex font-bold 
+                               bg-yellow-500 text-black rounded px-8 py-2 mt-4'>
+                                Booking
+                                <CiLocationArrow1 className='ml-4  mt-1 font-semibold text-xl' />
+                            </Link>
+                        </div>
+                        {/* mobile screen booking end */}
+
+
+                    </div>
+                    {/*right side images start*/}
                     <div className="hidden w-5/12 ml-8 mt-6 md:flex mr-96">
                         <Link
                             className='w-full ml-4 flex-shrink-0 relative hover:scale-105 transition duration-200 ease-in-out'
                         >
                             <div className="">
                                 <img className="w-full object-cover border-style" src={shajek} alt="Sajek" />
-                                <h1 className="mt-80 text-4xl ml-2 absolute top-0 left-0 w-full bebas-neue-regular text-white p-2">Shajek</h1>
+                                <h1 className="  mt-80 text-4xl ml-2 absolute top-0 left-0 w-full bebas-neue-regular text-white p-2">Shajek</h1>
                             </div>
                         </Link>
 
@@ -76,16 +131,12 @@ const Home = () => {
                             </div>
                         </Link>
                     </div>
-                    {/*right side images*/}
-
-                    {/*right side images for mobile*/}
-                    {/* right side images for mobilee end */}
-
+                    {/*right side images end*/}
 
                 </div>
                 {/* last icons */}
                 <div>
-                    <div className='flex justify-center  mt-12 text-4xl mb-10 '>
+                    <div className='flex justify-center mt-12 text-4xl mb-10 center-container'>
                         <Link to='/'>
                             < IoIosArrowBack className='hover:bg-yellow-600 p-2 bg-white rounded-full text-black'>
                             </IoIosArrowBack>

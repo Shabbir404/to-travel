@@ -38,7 +38,9 @@ const Header = () => {
             {/* Mobile View */}
             <div>
                 <div className='flex items-center justify-between md:hidden'>
-                    <img className='w-48 h-20' src={logo} alt="" />
+                    <Link>
+                        <img className='w-48 h-20' src={logo} alt="" />
+                    </Link>
                     <button
                         className='text-white text-2xl'
                         onClick={() => setIsMenuOpen(!isMenuOpen)}
