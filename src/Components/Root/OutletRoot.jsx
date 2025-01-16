@@ -2,6 +2,7 @@ import { Outlet } from "react-router-dom";
 import '../../Css/outlet.css'
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
+import ImagesLayout from "../ImageLayout/ImagesLayout";
 
 const OutletRoot = () => {
     return (
@@ -10,6 +11,7 @@ const OutletRoot = () => {
                 <Header></Header>
                 <Outlet></Outlet>
             </div>
+            <ImagesLayout></ImagesLayout>
             <Footer></Footer>
         </div>
     );
