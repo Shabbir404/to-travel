@@ -1,0 +1,340 @@
+[
+    {
+        "name": "Ocean View Resort",
+        "images": [
+            "https://images.pexels.com/photos/1179156/pexels-photo-1179156.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        ],
+        "guests": 4,
+        "bedroom": 2,
+        "bath": 2,
+        "beds": 3,
+        "facility_description": "Beachfront, Pool, Free WiFi, Air Conditioning",
+        "rating": 4.5,
+        "cost_per_night": 120
+    },
+    {
+        "name": "Sunset Beach Resort",
+        "images": [
+            "https://images.pexels.com/photos/3601453/pexels-photo-3601453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        ],
+        "guests": 2,
+        "bedroom": 1,
+        "bath": 1,
+        "beds": 1,
+        "facility_description": "Pool, Bar, Fitness Center, Free Breakfast",
+        "rating": 4.0,
+        "cost_per_night": 80
+    },
+    {
+        "name": "Cox's Royal Hotel",
+        "images": [
+            "https://images.pexels.com/photos/9298/light-art-house-architecture.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        ],
+        "guests": 6,
+        "bedroom": 3,
+        "bath": 3,
+        "beds": 4,
+        "facility_description": "Private Beach, Restaurant, Free WiFi",
+        "rating": 4.8,
+        "cost_per_night": 150
+    },
+    {
+        "name": "The Tropical Oasis",
+        "images": [
+            "https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        ],
+        "guests": 2,
+        "bedroom": 1,
+        "bath": 1,
+        "beds": 1,
+        "facility_description": "Ocean View, Free Parking, Massage Center",
+        "rating": 4.2,
+        "cost_per_night": 100
+    },
+    {
+        "name": "Bay Breeze Resort",
+        "images": [
+            "https://images.pexels.com/photos/189296/pexels-photo-189296.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        ],
+        "guests": 4,
+        "bedroom": 2,
+        "bath": 2,
+        "beds": 2,
+        "facility_description": "Outdoor Pool, Gym, Free WiFi",
+        "rating": 4.6,
+        "cost_per_night": 110
+    },
+    {
+        "name": "Coral Reef Beach Resort",
+        "images": [
+            "https://images.pexels.com/photos/3601450/pexels-photo-3601450.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        ],
+        "guests": 8,
+        "bedroom": 4,
+        "bath": 4,
+        "beds": 5,
+        "facility_description": "Beach Access, Sauna, Free Breakfast",
+        "rating": 4.7,
+        "cost_per_night": 200
+    },
+    {
+        "name": "Golden Sands Resort",
+        "images": [
+            "https://images.pexels.com/photos/9149274/pexels-photo-9149274.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        ],
+        "guests": 5,
+        "bedroom": 2,
+        "bath": 2,
+        "beds": 3,
+        "facility_description": "Sea Views, Free WiFi, Restaurant",
+        "rating": 4.1,
+        "cost_per_night": 90
+    },
+    {
+        "name": "Paradise Bay Resort",
+        "images": [
+            "https://images.pexels.com/photos/9080952/pexels-photo-9080952.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        ],
+        "guests": 3,
+        "bedroom": 1,
+        "bath": 1,
+        "beds": 2,
+        "facility_description": "Private Pool, Bar, Free Parking",
+        "rating": 4.3,
+        "cost_per_night": 120
+    },
+    {
+        "name": "Royal Ocean Resort",
+        "images": [
+            "https://images.pexels.com/photos/9149402/pexels-photo-9149402.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        ],
+        "guests": 2,
+        "bedroom": 1,
+        "bath": 1,
+        "beds": 1,
+        "facility_description": "Restaurant, Spa, Beach Access",
+        "rating": 4.0,
+        "cost_per_night": 85
+    },
+    {
+        "name": "Wave Crest Resort",
+        "images": [
+            "https://images.pexels.com/photos/5708069/pexels-photo-5708069.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        ],
+        "guests": 6,
+        "bedroom": 3,
+        "bath": 2,
+        "beds": 4,
+        "facility_description": "Beach Views, Free Breakfast, Pool",
+        "rating": 4.5,
+        "cost_per_night": 140
+    },
+    {
+        "name": "Blue Water Resort",
+        "images": [
+            "https://images.pexels.com/photos/6921949/pexels-photo-6921949.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        ],
+        "guests": 4,
+        "bedroom": 2,
+        "bath": 1,
+        "beds": 3,
+        "facility_description": "Ocean Views, Free WiFi, Air Conditioning",
+        "rating": 4.2,
+        "cost_per_night": 100
+    },
+    {
+        "name": "The Serenity Resort",
+        "images": [
+            "https://images.pexels.com/photos/319892/pexels-photo-319892.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        ],
+        "guests": 5,
+        "bedroom": 2,
+        "bath": 2,
+        "beds": 3,
+        "facility_description": "Yoga Center, Beach Access, Spa",
+        "rating": 4.8,
+        "cost_per_night": 180
+    },
+    {
+        "name": "Sand Dunes Resort",
+        "images": [
+            "https://images.pexels.com/photos/10256408/pexels-photo-10256408.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        ],
+        "guests": 7,
+        "bedroom": 3,
+        "bath": 2,
+        "beds": 4,
+        "facility_description": "Private Beach, Bar, Fitness Center",
+        "rating": 4.6,
+        "cost_per_night": 160
+    },
+    {
+        "name": "Sunrise Retreat Resort",
+        "images": [
+            "https://images.pexels.com/photos/6774097/pexels-photo-6774097.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        ],
+        "guests": 4,
+        "bedroom": 2,
+        "bath": 1,
+        "beds": 2,
+        "facility_description": "Beachfront, Free WiFi, Restaurant",
+        "rating": 4.3,
+        "cost_per_night": 110
+    },
+    {
+        "name": "Lagoon Breeze Resort",
+        "images": [
+            "https://images.pexels.com/photos/1320679/pexels-photo-1320679.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        ],
+        "guests": 6,
+        "bedroom": 3,
+        "bath": 2,
+        "beds": 3,
+        "facility_description": "Oceanfront, Pool, Free Breakfast",
+        "rating": 4.4,
+        "cost_per_night": 130
+    },
+    {
+        "name": "Palm Shore Resort",
+        "images": [
+            "https://images.pexels.com/photos/59924/pexels-photo-59924.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        ],
+        "guests": 8,
+        "bedroom": 4,
+        "bath": 3,
+        "beds": 5,
+        "facility_description": "Private Villas, Bar, Gym",
+        "rating": 4.7,
+        "cost_per_night": 210
+    },
+    {
+        "name": "Cox's Paradise Resort",
+        "images": [
+            "https://images.pexels.com/photos/3355734/pexels-photo-3355734.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        ],
+        "guests": 2,
+        "bedroom": 1,
+        "bath": 1,
+        "beds": 1,
+        "facility_description": "Seaside Views, Free Parking, Spa",
+        "rating": 4.0,
+        "cost_per_night": 85
+    },
+    {
+        "name": "Sunshine Cove Resort",
+        "images": [
+            "https://images.pexels.com/photos/5522406/pexels-photo-5522406.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        ],
+        "guests": 4,
+        "bedroom": 2,
+        "bath": 1,
+        "beds": 2,
+        "facility_description": "Ocean Views, Pool, Free WiFi",
+        "rating": 4.3,
+        "cost_per_night": 105
+    },
+    {
+        "name": "Beachfront Bliss Resort",
+        "images": [
+            "https://images.pexels.com/photos/1450363/pexels-photo-1450363.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        ],
+        "guests": 3,
+        "bedroom": 2,
+        "bath": 1,
+        "beds": 2,
+        "facility_description": "Beach Access, Restaurant, Pool",
+        "rating": 4.6,
+        "cost_per_night": 130
+    },
+    {
+        "name": "Laguna Bay Resort",
+        "images": [
+            "https://images.pexels.com/photos/2548568/pexels-photo-2548568.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        ],
+        "guests": 6,
+        "bedroom": 3,
+        "bath": 2,
+        "beds": 4,
+        "facility_description": "Private Pool, Gym, Free Breakfast",
+        "rating": 4.4,
+        "cost_per_night": 140
+    },
+    {
+        "name": "Crystal Shores Resort",
+        "images": [
+            "https://images.pexels.com/photos/261169/pexels-photo-261169.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        ],
+        "guests": 4,
+        "bedroom": 2,
+        "bath": 2,
+        "beds": 3,
+        "facility_description": "Beach Views, Fitness Center, Pool",
+        "rating": 4.7,
+        "cost_per_night": 150
+    },
+    {
+        "name": "Serene Ocean Resort",
+        "images": [
+            "https://images.pexels.com/photos/14012230/pexels-photo-14012230.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        ],
+        "guests": 2,
+        "bedroom": 1,
+        "bath": 1,
+        "beds": 1,
+        "facility_description": "Private Beach, Spa, Free Parking",
+        "rating": 4.5,
+        "cost_per_night": 95
+    },
+    {
+        "name": "Tropical Sands Resort",
+        "images": [
+            "https://images.pexels.com/photos/24913567/pexels-photo-24913567/free-photo-of-sea-star-beau-rivage-hotel-in-egypt.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        ],
+        "guests": 6,
+        "bedroom": 3,
+        "bath": 2,
+        "beds": 4,
+        "facility_description": "Beach Views, Pool, Free WiFi",
+        "rating": 4.6,
+        "cost_per_night": 135
+    },
+    {
+        "name": "Breeze Bay Resort",
+        "images": [
+            "https://images.pexels.com/photos/16714960/pexels-photo-16714960/free-photo-of-aerial-view-of-a-recreation-resort-with-a-swimming-pools.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        ],
+        "guests": 4,
+        "bedroom": 2,
+        "bath": 1,
+        "beds": 3,
+        "facility_description": "Bar, Fitness Center, Pool",
+        "rating": 4.2,
+        "cost_per_night": 100
+    },
+    {
+        "name": "Sunshine Paradise Resort",
+        "images": [
+            "https://images.pexels.com/photos/27868502/pexels-photo-27868502/free-photo-of-a-large-pool-and-lawn-area-with-palm-trees.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        ],
+        "guests": 5,
+        "bedroom": 2,
+        "bath": 2,
+        "beds": 3,
+        "facility_description": "Private Pool, Gym, Free Breakfast",
+        "rating": 4.7,
+        "cost_per_night": 180
+    },
+    {
+        "name": "Cox's Lagoon Resort",
+        "images": [
+            "https://images.pexels.com/photos/1450361/pexels-photo-1450361.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        ],
+        "guests": 7,
+        "bedroom": 3,
+        "bath": 2,
+        "beds": 4,
+        "facility_description": "Beachfront, Pool, Restaurant",
+        "rating": 4.6,
+        "cost_per_night": 150
+    }
+]
