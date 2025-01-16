@@ -93,7 +93,7 @@ const Booking = () => {
                                         </div>
                                     </div>
                                     {/* flex end */}
-                                    <Link className="mt-4 w-full btn btn-warning">Start Booking</Link>
+                                    <Link to='/destinations' className="mt-4 w-full btn btn-warning">Start Booking</Link>
                                 </div>
 
                             </div>
@@ -102,7 +102,7 @@ const Booking = () => {
                     </div>
                     {/* date-picker-box design end */}
                 </div>
-                
+
             </div>
             {/* last icons */}
             <div>

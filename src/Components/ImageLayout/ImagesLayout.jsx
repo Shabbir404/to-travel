@@ -2,7 +2,7 @@ import React from 'react';
 
 const ImagesLayout = () => {
     const destinations = [
-        { id: 1, name: "Paris", country: "France" },
+        { id: 1, name: "Paris", country: "France", },
         { id: 2, name: "New York", country: "United States" },
         { id: 3, name: "Tokyo", country: "Japan" },
         { id: 4, name: "Barcelona", country: "Spain" },
@@ -55,7 +55,7 @@ const ImagesLayout = () => {
                     </div>
 
                     <div className="mt-12 text-center">
-                        <button className="text-blue-600 hover:text-blue-800 font-medium">
+                        <button className="text-yellow-500 hover:text-yellow-700 font-medium">
                             Discover more destinations →
                         </button>
                     </div>

@@ -9,6 +9,7 @@ import { Root } from 'postcss';
 import Home from './Components/Home/Home';
 import OutletRoot from './Components/Root/OutletRoot';
 import Booking from './Components/Booking/Booking';
+import Destination from './Page/Destination/Destination';
 
 const router = createBrowserRouter([
   {
@@ -22,9 +23,13 @@ const router = createBrowserRouter([
       {
         path: '/booking',
         element: <Booking></Booking>
-      }
+      },
     ]
   },
+  {
+    path: '/destinations',
+    element: <Destination></Destination>
+  }
 ]);
 
 createRoot(document.getElementById('root')).render(
