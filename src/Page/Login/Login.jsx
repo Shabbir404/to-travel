@@ -1,5 +1,7 @@
 import { Link } from 'react-router-dom';
 import logo from '../../assets/BlackLogo.png'
+import { FcGoogle } from "react-icons/fc";
+import { FaFacebook } from "react-icons/fa";
 import { useState } from 'react';
 const Login = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -57,9 +59,8 @@ const Login = () => {
                 </div>
                 {/* header end */}
 
-
                 {/* login form start */}
-                <div className="w-full p-10 md:p-0 mx-auto mt-5 md:w-4/12">
+                <div className="w-full p-4 md:p-0 mx-auto mt-5 md:w-4/12">
                     <div className="border-gray-200 border rounded-md">
                         <div className="bg-white p-6 rounded-lg shadow-lg w-full">
                             <h2 className="text-2xl font-bold ml-2 text-black mb-6">Login</h2>
@@ -129,9 +130,24 @@ const Login = () => {
                         </div>
                     </div>
                 </div>
-
                 {/* login form end */}
-
+                <div className='flex items-center md:w-4/12 mx-auto w-10/12 my-4'>
+                    <hr className='flex-grow border-gray-400' />
+                    <span class="mx-4 text-gray-800">or</span>
+                    <hr class="flex-grow  border-gray-400" />
+                </div>
+                {/* login another */}
+                <div className='w-full p-10 md:p-0 mx-auto md:mt-5 md:w-4/12'>
+                    <div className='flex  cursor-pointer hover:border-blue-500  p-2 text-2xl border-gray-400 rounded-full border'>
+                        <FaFacebook className='text-blue-500 text-4xl'></FaFacebook>
+                        <h1 className='ml-8 md:ml-20'>Continue with Facebook</h1>
+                    </div>
+                    <div className='flex  cursor-pointer hover:border-yellow-500 p-2 mt-3 text-2xl border-gray-400 rounded-full border'>
+                        <FcGoogle className='text-4xl'></FcGoogle>
+                        <h1 className='ml-10 md:ml-24'>Continue with Google</h1>
+                    </div>
+                </div>
+                {/* login another end */}
             </div>
         </div>
     );
