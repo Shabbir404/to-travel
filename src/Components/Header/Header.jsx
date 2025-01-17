@@ -29,8 +29,8 @@ const Header = () => {
                         <Link className='ml-16 text-white'>Blog</Link>
                         <Link className='ml-16 text-white'>Contact</Link>
                     </div>
-                    <div>
-                        <button className='bg-yellow-500 text-black rounded px-8 py-2'>Login</button>
+                    <div className='mt-2'>
+                        <Link to='/login' className='bg-yellow-500 text-black rounded px-8 py-2'>Login</Link>
                     </div>
                 </div>
             </div>
@@ -64,7 +64,10 @@ const Header = () => {
                             <Link className='block text-white py-2'>Destination</Link>
                             <Link className='block text-white py-2'>Blog</Link>
                             <Link className='block text-white py-2'>Contact</Link>
-                            <button className='bg-yellow-500 text-black rounded px-8 py-2 mt-2 w-full'>Login</button>
+                            <div className='mt-5'>
+                                <Link to='/login' className=' bg-yellow-500 text-black rounded px-8 py-2 w-full'>Login</Link>
+                            </div>
+
                         </div>
                     </div>
                 )}

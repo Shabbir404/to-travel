@@ -8,9 +8,6 @@ import { GoogleMap, useJsApiLoader } from '@react-google-maps/api'
 
 const Destination = () => {
 
-    // google maps work
-
-    // goole maps end
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     const [hotels, SetHotels] = useState([])
     useEffect(() => {
@@ -117,11 +114,7 @@ const Destination = () => {
                             <div className="w-1/3 sticky top-8 h-auto">
                                 <iframe
                                     className="w-full h-full rounded-lg"
-                                    frameBorder="0"
-                                    scrolling="no"
-                                    marginHeight="0"
-                                    marginWidth="0"
-                                    src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=cox's%20bazar+(To%20Travel)&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+                                    src="https://www.google.com/maps/d/embed?mid=1wZj2hogwakMHZRNQz8ADQtONriPbXlM&ehbc=2E312F" width="640" height="480"
                                     title="Location Map"
                                 />
                             </div>
