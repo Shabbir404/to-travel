@@ -4,8 +4,13 @@ import logo from '../../assets/BlackLogo.png'
 import '../../Css/destinations.css'
 import { FaStar } from "react-icons/fa";
 import Footer from '../../Components/Footer/Footer';
+import { GoogleMap, useJsApiLoader } from '@react-google-maps/api'
 
 const Destination = () => {
+
+    // google maps work
+
+    // goole maps end
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     const [hotels, SetHotels] = useState([])
     useEffect(() => {
@@ -15,8 +20,8 @@ const Destination = () => {
     }, [])
 
     return (
-        <div>
-            <div>
+        <div className=''>
+            <div className=''>
                 <div>
                     <div className='w-10/12 mx-auto'>
                         {/* Desktop View */}
@@ -71,33 +76,56 @@ const Destination = () => {
                         <h1 className='big-text'>Stay in Cox’s Bazar</h1>
                     </div>
                     {/* all hotel design */}
-                    <div className='mt-8 w-10/12 mx-auto '>
-                        {
-                            hotels.slice(0, 3).map((hotel, index) => (
-                                <div key={index} className='flex'>
-                                    <img className='w-64 h-44 rounded-md mb-8' src={hotel.images[0]} alt="" />
-                                    <div className='p-3 ml-4'>
-                                        <h1 className='all-font'>{hotel.name}</h1>
-                                        <div className='all-font-small flex gap-2 mt-2'>
-                                            <span>{hotel.guests} Guests</span>
-                                            <span>{hotel.bedroom} Bedroom</span>
-                                            <span>{hotel.bath} Bath</span>
-                                            <span>{hotel.beds} Beds</span>
+                    <div className="mt-8 w-10/12 mx-auto">
+                        <div className="flex gap-8">
+                            {/* Left side - Hotels */}
+                            <div className="w-2/3">
+                                {hotels.slice(0, 3).map((hotel, index) => (
+                                    <div key={index} className="flex mb-8 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow">
+                                        <img
+                                            className="w-64 h-44 rounded-l-lg object-cover"
+                                            src={hotel.images[0]}
+                                            alt={hotel.name}
+                                        />
+                                        <div className="p-4 flex-1">
+                                            <h1 className="text-xl font-semibold">{hotel.name}</h1>
+                                            <div className="flex gap-4 text-sm text-gray-600 mt-2">
+                                                <span>{hotel.guests} Guests</span>
+                                                <span>{hotel.bedroom} Bedroom</span>
+                                                <span>{hotel.bath} Bath</span>
+                                                <span>{hotel.beds} Beds</span>
+                                            </div>
+                                            <p className="text-sm text-gray-600 mt-2 line-clamp-2">
+                                                {hotel.facility_description}
+                                            </p>
+                                            <div className="flex mt-3">
+                                                <span className="flex items-center text-sm">
+                                                    <FaStar className="text-yellow-400 mr-1" />
+                                                    {hotel.rating}
+                                                </span>
+                                                <span className="font-semibold ml-5">
+                                                    ${hotel.cost_per_night}
+                                                    <mark className="bg-transparent text-gray-500">/Night</mark>
+                                                </span>
+                                            </div>
                                         </div>
-                                        <p className='all-font-small mt-1'>{hotel.facility_description}</p>
-                                        <div className='flex '>
-                                            <span className='flex mt-2 '>
-                                                <FaStar className=' mt-1 mr-1 text-yellow-400'></FaStar>
-                                                {hotel.rating}</span>
-                                            <span className='all-font mt-2 ml-4'>${hotel.cost_per_night}<mark>/Night</mark></span>
-                                        </div>
-
                                     </div>
+                                ))}
+                            </div>
 
-                                </div>
-                            ))
-                        }
-
+                            {/* Right side - Map */}
+                            <div className="w-1/3 sticky top-8 h-auto">
+                                <iframe
+                                    className="w-full h-full rounded-lg"
+                                    frameBorder="0"
+                                    scrolling="no"
+                                    marginHeight="0"
+                                    marginWidth="0"
+                                    src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=cox's%20bazar+(To%20Travel)&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+                                    title="Location Map"
+                                />
+                            </div>
+                        </div>
                     </div>
                     {/* all hotel design end */}
                     <hr />
@@ -109,9 +137,7 @@ const Destination = () => {
                         </button>
                     </div>
                 </div>
-                <div>
-                
-                </div>
+
             </div>
 
             <Footer></Footer>
