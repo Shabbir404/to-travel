@@ -12,6 +12,8 @@ import Booking from './Components/Booking/Booking';
 import Destination from './Page/Destination/Destination';
 import Signup from './Page/Signup/Signup';
 import Login from './Page/Login/Login';
+import path from 'path';
+import Terms from './Page/Terms_and_condition/Terms';
 
 const router = createBrowserRouter([
   {
@@ -35,7 +37,15 @@ const router = createBrowserRouter([
   },
   {
     path: '/login',
-    element: <Login></Login>
+    element: <Login></Login>,
+  },
+  {
+    path: '/signup',
+    element: <Signup></Signup>
+  },
+  {
+    path: '/terms',
+    element: <Terms></Terms>
   }
 ]);
 

@@ -34,8 +34,8 @@ const Destination = () => {
                                     <Link className='ml-16 text-black'>Blog</Link>
                                     <Link className='ml-16 text-black'>Contact</Link>
                                 </div>
-                                <div>
-                                    <button className='bg-yellow-500 text-black rounded px-8 py-2'>Login</button>
+                                <div className='mt-2'>
+                                    <a href='/login' className=' bg-yellow-500 text-black rounded px-8 py-2'>Login</a>
                                 </div>
                             </div>
                         </div>
